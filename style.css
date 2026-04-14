@@ -1,0 +1,134 @@
+img{
+  border-style: double;
+  object-position: center;
+  border-color: antiquewhite;
+  max-width: 300px; 
+  height: auto;    
+}
+body{
+background-color: black;
+background-image: url("Images/background.png");
+}
+h1{
+  align-self: center;
+  text-align: center;
+  background-color: yellow;
+  border-style: double; 
+}
+p{
+   font-weight: bold;
+  font-size: 10;
+  border-style: double;
+  font-family:serif;
+  display:run-in;
+  object-position: center;
+  text-align: center;
+  background-color:antiquewhite;
+}
+h2{
+  border-style:ridge;
+  border-color: whitesmoke;
+  text-decoration: none;
+  background-color:whitesmoke;
+}
+h3{
+    border-style:ridge;
+  border-color: whitesmoke;
+  text-decoration: none;
+  background-color:whitesmoke;
+}
+h4{ 
+}
+h5{
+}
+h6{
+}
+a{
+    text-decoration:none;
+  font-size: 18;
+}
+  a:hover{
+  font-size: 24;
+  text-align: center;
+  text-decoration: none;
+  text-indent: inherit;
+  font-style: inherit;
+  font-family: sans-serif;
+  align-self: auto;
+}
+.buttons: hover{
+transformY: -15;
+  transition: transform 0.3 ease-in-out;
+  cursor: pointer;
+  
+}
+.buttons{
+  width: 325;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2 solid black;
+  margin: 10;
+  border: ridge;
+  border-width: thick;
+  border-color: antiquewhite;
+  transition: transform 0.3 ease-in-out;
+  background-color: antique-white;
+  background-image: url("Images/Background-Cosmos.png");
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: whitesmoke;
+  font-family: fantasy;
+}
+.mainstyle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20;
+  background-color: whitesmoke;
+}
+.img{
+  width: 10;
+    max-width: 250px; 
+  height: auto;    
+}
+.music-player {
+  background-image: url("Images/Musicbackground.jpeg");
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.song-info {
+    margin-bottom: 10px;
+}
+
+.song-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.artist-name {
+    font-size: 0.9em;
+    color: #666;
+}
+.container {
+  display: flex;         
+  flex-direction: row;   
+  flex-wrap: wrap;       
+  gap: 20px;           
+  padding: 20px;
+}
+.game-button {
+  background-image: url("Images/Musicbackground2.jpeg");
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+a{
+  color: White;
+}
+Footer
